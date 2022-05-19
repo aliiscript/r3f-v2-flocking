@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { useControls } from "leva";
 import CanvasLayout from "../components/layout/CanvasLayout";
 import DomLayout from "../components/layout/DomLayout";
-import Box from "../components/canvas/Box";
 
 // dom components go here
 const DOM = () => {
@@ -25,7 +24,7 @@ const R3F = () => {
         <CanvasLayout>
             <ambientLight />
             <pointLight position={[10, 10, 10]} />
-            <Box color={color} hoverColor={hoverColor} />
+            
         </CanvasLayout>
     );
 };
